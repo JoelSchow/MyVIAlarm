@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF98DE9F25A3D6A5000A6252 /* MyVIAlarmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF98DE9E25A3D6A5000A6252 /* MyVIAlarmApp.swift */; };
+		DF98DEA125A3D6A5000A6252 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF98DEA025A3D6A5000A6252 /* ContentView.swift */; };
+		DF98DEA325A3D6A8000A6252 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF98DEA225A3D6A8000A6252 /* Assets.xcassets */; };
+		DF98DEA625A3D6A8000A6252 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF98DEA525A3D6A8000A6252 /* Preview Assets.xcassets */; };
+		DF98DEA825A3D6A8000A6252 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF98DEA725A3D6A8000A6252 /* Persistence.swift */; };
+		DF98DEAB25A3D6A8000A6252 /* MyVIAlarm.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DF98DEA925A3D6A8000A6252 /* MyVIAlarm.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DF98DE9B25A3D6A5000A6252 /* MyVIAlarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyVIAlarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF98DE9E25A3D6A5000A6252 /* MyVIAlarmApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVIAlarmApp.swift; sourceTree = "<group>"; };
+		DF98DEA025A3D6A5000A6252 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DF98DEA225A3D6A8000A6252 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF98DEA525A3D6A8000A6252 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DF98DEA725A3D6A8000A6252 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		DF98DEAA25A3D6A8000A6252 /* MyVIAlarm.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyVIAlarm.xcdatamodel; sourceTree = "<group>"; };
+		DF98DEAC25A3D6A8000A6252 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF98DE9825A3D6A5000A6252 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF98DE9225A3D6A5000A6252 = {
+			isa = PBXGroup;
+			children = (
+				DF98DE9D25A3D6A5000A6252 /* MyVIAlarm */,
+				DF98DE9C25A3D6A5000A6252 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF98DE9C25A3D6A5000A6252 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF98DE9B25A3D6A5000A6252 /* MyVIAlarm.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF98DE9D25A3D6A5000A6252 /* MyVIAlarm */ = {
+			isa = PBXGroup;
+			children = (
+				DF98DE9E25A3D6A5000A6252 /* MyVIAlarmApp.swift */,
+				DF98DEA025A3D6A5000A6252 /* ContentView.swift */,
+				DF98DEA225A3D6A8000A6252 /* Assets.xcassets */,
+				DF98DEA725A3D6A8000A6252 /* Persistence.swift */,
+				DF98DEAC25A3D6A8000A6252 /* Info.plist */,
+				DF98DEA925A3D6A8000A6252 /* MyVIAlarm.xcdatamodeld */,
+				DF98DEA425A3D6A8000A6252 /* Preview Content */,
+			);
+			path = MyVIAlarm;
+			sourceTree = "<group>";
+		};
+		DF98DEA425A3D6A8000A6252 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DF98DEA525A3D6A8000A6252 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF98DE9A25A3D6A5000A6252 /* MyVIAlarm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF98DEAF25A3D6A8000A6252 /* Build configuration list for PBXNativeTarget "MyVIAlarm" */;
+			buildPhases = (
+				DF98DE9725A3D6A5000A6252 /* Sources */,
+				DF98DE9825A3D6A5000A6252 /* Frameworks */,
+				DF98DE9925A3D6A5000A6252 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyVIAlarm;
+			productName = MyVIAlarm;
+			productReference = DF98DE9B25A3D6A5000A6252 /* MyVIAlarm.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF98DE9325A3D6A5000A6252 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					DF98DE9A25A3D6A5000A6252 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = DF98DE9625A3D6A5000A6252 /* Build configuration list for PBXProject "MyVIAlarm" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF98DE9225A3D6A5000A6252;
+			productRefGroup = DF98DE9C25A3D6A5000A6252 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF98DE9A25A3D6A5000A6252 /* MyVIAlarm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF98DE9925A3D6A5000A6252 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF98DEA625A3D6A8000A6252 /* Preview Assets.xcassets in Resources */,
+				DF98DEA325A3D6A8000A6252 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF98DE9725A3D6A5000A6252 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF98DEAB25A3D6A8000A6252 /* MyVIAlarm.xcdatamodeld in Sources */,
+				DF98DEA825A3D6A8000A6252 /* Persistence.swift in Sources */,
+				DF98DEA125A3D6A5000A6252 /* ContentView.swift in Sources */,
+				DF98DE9F25A3D6A5000A6252 /* MyVIAlarmApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DF98DEAD25A3D6A8000A6252 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF98DEAE25A3D6A8000A6252 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF98DEB025A3D6A8000A6252 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MyVIAlarm/Preview Content\"";
+				DEVELOPMENT_TEAM = 2DFH22J5Y5;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MyVIAlarm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.joelschow.MyVIAlarm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF98DEB125A3D6A8000A6252 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MyVIAlarm/Preview Content\"";
+				DEVELOPMENT_TEAM = 2DFH22J5Y5;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MyVIAlarm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.joelschow.MyVIAlarm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF98DE9625A3D6A5000A6252 /* Build configuration list for PBXProject "MyVIAlarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF98DEAD25A3D6A8000A6252 /* Debug */,
+				DF98DEAE25A3D6A8000A6252 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF98DEAF25A3D6A8000A6252 /* Build configuration list for PBXNativeTarget "MyVIAlarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF98DEB025A3D6A8000A6252 /* Debug */,
+				DF98DEB125A3D6A8000A6252 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DF98DEA925A3D6A8000A6252 /* MyVIAlarm.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DF98DEAA25A3D6A8000A6252 /* MyVIAlarm.xcdatamodel */,
+			);
+			currentVersion = DF98DEAA25A3D6A8000A6252 /* MyVIAlarm.xcdatamodel */;
+			path = MyVIAlarm.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DF98DE9325A3D6A5000A6252 /* Project object */;
+}
