@@ -7,21 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF3D6ECC25A7FB9700BA25EE /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3D6ECB25A7FB9700BA25EE /* Persistence.swift */; };
 		DF98DE9F25A3D6A5000A6252 /* MyVIAlarmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF98DE9E25A3D6A5000A6252 /* MyVIAlarmApp.swift */; };
 		DF98DEA125A3D6A5000A6252 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF98DEA025A3D6A5000A6252 /* ContentView.swift */; };
 		DF98DEA325A3D6A8000A6252 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF98DEA225A3D6A8000A6252 /* Assets.xcassets */; };
 		DF98DEA625A3D6A8000A6252 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF98DEA525A3D6A8000A6252 /* Preview Assets.xcassets */; };
-		DF98DEA825A3D6A8000A6252 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF98DEA725A3D6A8000A6252 /* Persistence.swift */; };
 		DF98DEAB25A3D6A8000A6252 /* MyVIAlarm.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DF98DEA925A3D6A8000A6252 /* MyVIAlarm.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DF3D6ECB25A7FB9700BA25EE /* Persistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		DF98DE9B25A3D6A5000A6252 /* MyVIAlarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyVIAlarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF98DE9E25A3D6A5000A6252 /* MyVIAlarmApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVIAlarmApp.swift; sourceTree = "<group>"; };
 		DF98DEA025A3D6A5000A6252 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DF98DEA225A3D6A8000A6252 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF98DEA525A3D6A8000A6252 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		DF98DEA725A3D6A8000A6252 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		DF98DEAA25A3D6A8000A6252 /* MyVIAlarm.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyVIAlarm.xcdatamodel; sourceTree = "<group>"; };
 		DF98DEAC25A3D6A8000A6252 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,8 +58,8 @@
 			children = (
 				DF98DE9E25A3D6A5000A6252 /* MyVIAlarmApp.swift */,
 				DF98DEA025A3D6A5000A6252 /* ContentView.swift */,
+				DF3D6ECB25A7FB9700BA25EE /* Persistence.swift */,
 				DF98DEA225A3D6A8000A6252 /* Assets.xcassets */,
-				DF98DEA725A3D6A8000A6252 /* Persistence.swift */,
 				DF98DEAC25A3D6A8000A6252 /* Info.plist */,
 				DF98DEA925A3D6A8000A6252 /* MyVIAlarm.xcdatamodeld */,
 				DF98DEA425A3D6A8000A6252 /* Preview Content */,
@@ -145,7 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF98DEAB25A3D6A8000A6252 /* MyVIAlarm.xcdatamodeld in Sources */,
-				DF98DEA825A3D6A8000A6252 /* Persistence.swift in Sources */,
+				DF3D6ECC25A7FB9700BA25EE /* Persistence.swift in Sources */,
 				DF98DEA125A3D6A5000A6252 /* ContentView.swift in Sources */,
 				DF98DE9F25A3D6A5000A6252 /* MyVIAlarmApp.swift in Sources */,
 			);
