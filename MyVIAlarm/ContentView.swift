@@ -41,7 +41,6 @@ struct ContentView: View {
         ZStack{
             
             Color(.white)
-                //.ignoresSafeArea()
                 .onAppear(perform: {
                     print("MyVIAlarm has started")
                     UNUserNotificationCenter.current().delegate = delegate
@@ -55,16 +54,12 @@ struct ContentView: View {
                     .onChanged{ value in
                     }
                     .onEnded { value in
-                        //print(value.translation)
                         if currentPage == .mainPage {
                             if value.translation.width <  -(UIScreen.screenWidth / 2) && value.translation.height > -50 && value.translation.height < 50 {
                                 print("left swipe")
                                 print("Entering alarmPage")
                                 handleStartAlarmEditing()
                             }
-                            /*else if value.translation.width > 0 && value.translation.height > -30 && value.translation.height < 30 {
-                                print("right swipe")
-                            }*/
                             else if value.translation.height < 0 && value.translation.width < 100 && value.translation.width > -100 {
                                 print("up swipe")
                                 handleAlarmToggle()
@@ -78,10 +73,7 @@ struct ContentView: View {
                                 print("non-conclusive swipe")
                             }
                         } else {
-                            /*if value.translation.width < 0 && value.translation.height > -30 && value.translation.height < 30 {
-                                print("left swipe")
-                            }
-                            else*/ if value.translation.width > (UIScreen.screenWidth / 2) && value.translation.height > -50 && value.translation.height < 50 {
+                            if value.translation.width > (UIScreen.screenWidth / 2) && value.translation.height > -50 && value.translation.height < 50 {
                                 print("right swipe")
                                 print("Entering mainPage")
                                 currentPage = .mainPage
@@ -133,14 +125,6 @@ struct ContentView: View {
                             else {
                                 print("non-conclusive swipe")
                             }
-                            
-                            /*else if currentEditAlarmState == .editHour || currentEditAlarmState == .editMinute {
-                                if currentEditAlarmState == .editHour {
-                                    print("Done selecting hour")
-                                } else {
-                                    print("Done selecting minute")
-                                }
-                            }*/
                         }
                     }
                 )
@@ -193,18 +177,15 @@ struct ContentView: View {
                         }
                     }
                 })
-            Color(lightBackground)
-                .ignoresSafeArea()
-                .allowsHitTesting(false)
             VStack {
                 Text("MyVIAlarm")
-                    .bold()
-                    .foregroundColor(.black)
-                    .font(.largeTitle)
+                    .font(.system(size: 20, weight: .semibold, design: .rounded))
                 Text("Joel Schow")
-                    .foregroundColor(.black)
-                    .font(.subheadline)
+                    .font(.system(size: 16, weight: .light, design: .rounded))
             }
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .background(Color(#colorLiteral(red: 0.8135031795, green: 0.8715417949, blue: 0.9930160315, alpha: 1)))
+            .edgesIgnoringSafeArea(.all)
             .allowsHitTesting(false)
         }
         
@@ -424,12 +405,6 @@ struct ContentView: View {
         dictateString("Instructions. Double tap the screen with one finger for time and alarm details. Swipe up with one finger to toggle alarm on or off. Full screen swipe left to edit alarm settings. Tap the screen with one finger to hear instructions again.")
     }
     
-    /*func dictateCurrentTime(){
-        print("Begin dictating current time")
-        print("Current time is : ", getDateText())
-        dictateString("Current date and time is \(getDateText())")
-    }*/
-    
     func dictateTimeAndAlarmDetails(){
         print("Begin dictating alarm details")
         correctCurrentAlarmDate()
@@ -469,7 +444,7 @@ struct ContentView: View {
     
     func dictateEditMinuteUpdate(){
         print("Begin dictating edit minute update")
-        dictateString("\(getTimeText(date: getEditingDate(), true))") //0
+        dictateString("\(getTimeText(date: getEditingDate(), true))")
     }
     
     func dictateEditAMPMInstructions(){
@@ -520,9 +495,3 @@ extension UIScreen{
    static let screenHeight = UIScreen.main.bounds.size.height
    static let screenSize = UIScreen.main.bounds.size
 }
-
-/*struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView().environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
-    }
-}*/
